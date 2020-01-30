@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndyLPK247/jasmine-node-js-example.git"
+    "url": "git+https://github.com/vaishrevankar/jasmine-node-js-example.git"
   },
   "keywords": [
     "Jasmine",
@@ -19,9 +19,9 @@
   "author": "Andrew Knight",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/AndyLPK247/jasmine-node-js-example/issues"
+    "url": "https://github.com/vaishrevankar/jasmine-node-js-example/issues"
   },
-  "homepage": "https://github.com/AndyLPK247/jasmine-node-js-example",
+  "homepage": "https://github.com/vaishrevankar/jasmine-node-js-example.git",
   "dependencies": {
     "frisby": "^2.0.10",
     "jasmine": "^2.8.0",
