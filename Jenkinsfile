@@ -19,5 +19,10 @@ pipeline {
                 sh 'npm run test'
             }
         }
+        stage('Code Coverage'){
+            steps {
+            sh 'npm run coverage'
+            }
         }
+    }
 }
