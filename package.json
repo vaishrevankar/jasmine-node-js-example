@@ -4,8 +4,9 @@
   "description": "An example project for Jasmine tests running on Node.js and written in JavaScript",
   "main": "index.js",
   "scripts": {
+   "start": "node index.js",
     "test": "jasmine",
-    "coverage": "istanbul cover --include-all-sources spec/specs.js && istanbul check-coverage"
+    "test-cover": "istanbul cover --include-all-sources spec/specs.js && istanbul check-coverage"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
     "Jasmine",
     "Node.js",
     "JavaScript",
-    "AutomationPanda"
+    "AutomationPanda",
+    "istanbul"
   ],
   "author": "Andrew Knight",
   "license": "Apache-2.0",
@@ -23,6 +25,14 @@
     "url": "https://github.com/vaishrevankar/jasmine-node-js-example/issues"
   },
   "homepage": "https://github.com/vaishrevankar/jasmine-node-js-example.git",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-node": "^1.14.5",
+    "istanbul": "^0.4.5",
+    "jasmine-console-reporter": "^2.0.1",
+    "supertest": "^3.0.0",
+    "jasmine-supertest": "^1.0.0"
+  },
   "dependencies": {
     "frisby": "^2.0.10",
     "jasmine": "^2.8.0",
